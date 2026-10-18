@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hubungi PawCare untuk bertanya tentang produk dan layanan bagi hewan kesayangan."
+    />
+    <title>Kontak | PawCare</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Nunito:wght@600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="announcement">Tempat nyaman untuk semua sahabat berbulu 🐾</div>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="PawCare, beranda"
+        ><span class="brand-mark" aria-hidden="true">🐾</span
+        ><span>PawCare<span class="brand-period">.</span></span></a
+      >
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+      >
+        <span class="sr-only">Buka menu</span><span></span><span></span
+        ><span></span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Navigasi utama">
+        <a href="index.html">Beranda</a><a href="produk.html">Produk</a
+        ><a href="layanan.html">Layanan</a><a href="tentang.html">Tentang</a
+        ><a class="nav-contact active" href="kontak.html" aria-current="page"
+          >Kontak <span aria-hidden="true">↗</span></a
+        >
+      </nav>
+    </header>
+    <main>
+      <section class="page-hero contact-page-hero">
+        <p class="eyebrow"><span></span> Kami senang mendengarnya</p>
+        <h1>Ada yang bisa<br /><span>kami bantu?</span></h1>
+        <p>
+          Tanyakan tentang kategori produk, layanan perawatan, atau hal lain
+          seputar PawCare.
+        </p>
+        <div class="page-hero-art">
+          <img
+            src="img/kucing-rumahan.jpg"
+            alt="Kucing hitam putih yang ramah"
+          />
+        </div>
+      </section>
+      <section class="section contact-section">
+        <div class="contact-copy">
+          <p class="eyebrow"><span></span> Kirim pesan</p>
+          <h2>Yuk, ngobrol dengan kami.</h2>
+          <p>
+            Isi formulir ini dengan pertanyaan Anda. Untuk saat ini formulir
+            hanya berfungsi sebagai demo dan belum mengirimkan pesan ke PawCare.
+          </p>
+          <div class="contact-note">
+            <span>🐾</span>
+            <p>
+              Tim PawCare ingin membantu Anda dan sahabat kesayangan menemukan
+              yang dibutuhkan.
+            </p>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <label for="name">Nama</label>
+          <input
+            id="name"
+            name="name"
+            type="text"
+            autocomplete="name"
+            placeholder="Nama Anda"
+            required
+          />
+          <label for="email">Alamat email</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            autocomplete="email"
+            placeholder="nama@email.com"
+            required
+          />
+          <label for="topic">Topik</label>
+          <select id="topic" name="topic" required>
+            <option value="" disabled selected>Pilih topik pertanyaan</option>
+            <option value="produk">Informasi produk</option>
+            <option value="layanan">Informasi layanan</option>
+            <option value="lainnya">Lainnya</option>
+          </select>
+          <label for="message">Pesan</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Ceritakan yang ingin Anda tanyakan..."
+            required
+          ></textarea>
+          <button class="button button-primary" type="submit">
+            Kirim pesan <span aria-hidden="true">→</span>
+          </button>
+          <p class="form-status" id="form-status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="index.html"
+        ><span class="brand-mark" aria-hidden="true">🐾</span
+        ><span>PawCare<span class="brand-period">.</span></span></a
+      >
+      <p>Teman terbaik untuk sahabat berbulu.</p>
+      <div class="footer-links">
+        <a href="produk.html">Produk</a><a href="layanan.html">Layanan</a
+        ><a href="tentang.html">Tentang</a><a href="kontak.html">Kontak</a>
+      </div>
+      <small
+        >© <span data-year></span> PawCare. Dibuat dengan penuh kasih.</small
+      >
+    </footer>
+  </body>
+</html>

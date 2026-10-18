@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Lihat kategori makanan, perlengkapan, mainan, dan perawatan hewan dari PawCare."
+    />
+    <title>Produk | PawCare</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Nunito:wght@600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="announcement">Tempat nyaman untuk semua sahabat berbulu 🐾</div>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="PawCare, beranda"
+        ><span class="brand-mark" aria-hidden="true">🐾</span
+        ><span>PawCare<span class="brand-period">.</span></span></a
+      >
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+      >
+        <span class="sr-only">Buka menu</span><span></span><span></span
+        ><span></span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Navigasi utama">
+        <a href="index.html">Beranda</a
+        ><a class="active" href="produk.html" aria-current="page">Produk</a
+        ><a href="layanan.html">Layanan</a><a href="tentang.html">Tentang</a
+        ><a class="nav-contact" href="kontak.html"
+          >Kontak <span aria-hidden="true">↗</span></a
+        >
+      </nav>
+    </header>
+    <main>
+      <section class="page-hero product-page-hero">
+        <p class="eyebrow"><span></span> Yang mereka butuhkan</p>
+        <h1>Barang pilihan untuk<br /><span>hari-hari penuh ceria.</span></h1>
+        <p>
+          Jelajahi berbagai kategori kebutuhan sahabat kesayangan. Pilihan
+          produk dan ketersediaan dapat ditanyakan langsung kepada kami.
+        </p>
+        <div class="category-pills">
+          <a href="#makanan">Makanan</a><a href="#perlengkapan">Perlengkapan</a
+          ><a href="#mainan">Mainan</a><a href="#perawatan">Perawatan</a>
+        </div>
+      </section>
+      <section class="section catalog-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span></span> Jelajahi kategori</p>
+            <h2>Favorit mereka, pilihan Anda</h2>
+          </div>
+          <p class="catalog-note">
+            Ada pertanyaan soal produk?
+            <a href="kontak.html">Tanya kepada kami →</a>
+          </p>
+        </div>
+        <div class="product-grid catalog-grid">
+          <article class="product-card" id="makanan">
+            <div class="product-image product-peach">
+              <img
+                src="img/kucing-rumahan.jpg"
+                alt="Kucing hitam putih beristirahat"
+                loading="lazy"
+              /><span class="product-badge">Makanan</span>
+            </div>
+            <div class="product-details">
+              <p class="product-category">Untuk kucing</p>
+              <h3>Makanan harian kucing</h3>
+              <p class="product-price">Pilihan nutrisi untuk si meong</p>
+              <a class="button button-outline" href="kontak.html"
+                >Tanya produk</a
+              >
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-image product-mint">
+              <img
+                src="img/anjing-ceria.jpg"
+                alt="Anjing ceria melihat ke arah kamera"
+                loading="lazy"
+              /><span class="product-badge">Makanan</span>
+            </div>
+            <div class="product-details">
+              <p class="product-category">Untuk anjing</p>
+              <h3>Makanan harian anjing</h3>
+              <p class="product-price">Pilihan untuk teman setia</p>
+              <a class="button button-outline" href="kontak.html"
+                >Tanya produk</a
+              >
+            </div>
+          </article>
+          <article class="product-card" id="perlengkapan">
+            <div class="product-image product-lilac">
+              <img
+                src="img/anjing-golden.jpg"
+                alt="Anjing golden retriever sedang duduk"
+                loading="lazy"
+              /><span class="product-badge">Perlengkapan</span>
+            </div>
+            <div class="product-details">
+              <p class="product-category">Jalan-jalan</p>
+              <h3>Perlengkapan bepergian</h3>
+              <p class="product-price">Temani petualangan bersama</p>
+              <a class="button button-outline" href="kontak.html"
+                >Tanya produk</a
+              >
+            </div>
+          </article>
+          <article class="product-card" id="mainan">
+            <div class="product-image product-yellow">
+              <img
+                src="img/kucing-oren.jpg"
+                alt="Kucing oren sedang bermain"
+                loading="lazy"
+              /><span class="product-badge">Mainan</span>
+            </div>
+            <div class="product-details">
+              <p class="product-category">Aktivitas</p>
+              <h3>Mainan untuk bermain</h3>
+              <p class="product-price">Teman bermain di rumah</p>
+              <a class="button button-outline" href="kontak.html"
+                >Tanya produk</a
+              >
+            </div>
+          </article>
+          <article class="product-card" id="perawatan">
+            <div class="product-image product-blue">
+              <img
+                src="img/anjing-ceria.jpg"
+                alt="Anjing dengan bulu bersih dan terawat"
+                loading="lazy"
+              /><span class="product-badge">Perawatan</span>
+            </div>
+            <div class="product-details">
+              <p class="product-category">Kebersihan</p>
+              <h3>Kebutuhan grooming</h3>
+              <p class="product-price">Rawat dengan lembut</p>
+              <a class="button button-outline" href="kontak.html"
+                >Tanya produk</a
+              >
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-image product-rose">
+              <img
+                src="img/kucing-oren.jpg"
+                alt="Kucing oren beristirahat dengan nyaman"
+                loading="lazy"
+              /><span class="product-badge">Perlengkapan</span>
+            </div>
+            <div class="product-details">
+              <p class="product-category">Kenyamanan</p>
+              <h3>Tempat istirahat nyaman</h3>
+              <p class="product-price">Sudut santai untuk si kecil</p>
+              <a class="button button-outline" href="kontak.html"
+                >Tanya produk</a
+              >
+            </div>
+          </article>
+        </div>
+        <p class="catalog-disclaimer">
+          Informasi produk pada halaman ini merupakan contoh kategori. Hubungi
+          PawCare untuk detail produk, harga, dan ketersediaan.
+        </p>
+      </section>
+      <section class="closing-cta">
+        <span class="cta-paw" aria-hidden="true">🐾</span>
+        <p class="eyebrow"><span></span> Butuh rekomendasi?</p>
+        <h2>Kami bantu temukan pilihan yang pas.</h2>
+        <p>
+          Ceritakan kebutuhan sahabat Anda agar kami bisa membantu memberikan
+          informasi.
+        </p>
+        <a class="button button-light" href="kontak.html"
+          >Tanya PawCare <span aria-hidden="true">→</span></a
+        >
+      </section>
+    </main>
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="index.html"
+        ><span class="brand-mark" aria-hidden="true">🐾</span
+        ><span>PawCare<span class="brand-period">.</span></span></a
+      >
+      <p>Teman terbaik untuk sahabat berbulu.</p>
+      <div class="footer-links">
+        <a href="produk.html">Produk</a><a href="layanan.html">Layanan</a
+        ><a href="tentang.html">Tentang</a><a href="kontak.html">Kontak</a>
+      </div>
+      <small
+        >© <span data-year></span> PawCare. Dibuat dengan penuh kasih.</small
+      >
+    </footer>
+  </body>
+</html>
